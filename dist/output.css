@@ -540,40 +540,6 @@ html{
   --tw-backdrop-sepia:  ;
 }
 
-.container{
-  width: 100%;
-}
-
-@media (min-width: 640px){
-  .container{
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px){
-  .container{
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px){
-  .container{
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px){
-  .container{
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px){
-  .container{
-    max-width: 1536px;
-  }
-}
-
 .static{
   position: static;
 }
@@ -612,6 +578,10 @@ html{
   margin-top: 1.25rem;
 }
 
+.mt-6{
+  margin-top: 1.5rem;
+}
+
 .flex{
   display: flex;
 }
@@ -622,6 +592,10 @@ html{
 
 .contents{
   display: contents;
+}
+
+.grid-cols-4{
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .items-start{
@@ -646,6 +620,10 @@ html{
 
 .gap-2{
   gap: 0.5rem;
+}
+
+.gap-5{
+  gap: 1.25rem;
 }
 
 .rounded-md{
@@ -817,7 +795,8 @@ html{
   cursor: pointer;
 }
 
-.hover\:bg-DarkGrayishBlue:hover{
-  --tw-bg-opacity: 1;
-  background-color: hsl(228 12% 44% / var(--tw-bg-opacity));
+@media (min-width: 640px){
+  .sm\:grid{
+    display: grid;
+  }
 }
