@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="./src/input.css" rel="stylesheet" />
+    <title>Frontend Mentor | Social Media Dashboard</title>
+  </head>
+  <body class="bg-White">
+    <header class="bg-VeryPaleBlue p-8 pb-20 rounded-e-3xl rounded-s-3xl">
+      <h1 class="text-xl font-extrabold">Social Media Dashboard</h1>
+      <p class="text-xs font-bold text-DarkGrayishBlue">
+        Total Followers: 23,004
+      </p>
+      <hr class="mt-5 mb-3 text-DarkGrayishBlue" />
+      <div class="flex justify-between">
+        <p class="text-DarkGrayishBlue text-xs font-bold">Dark Mode</p>
+      </div>
+    </header>
+    <main class="bg-White p-8">
+      <div class="sm:grid grid-cols-4 gap-5">
+        <div
+          class="bg-LightGrayishBlue py-6 rounded-md border-t-4 border-Facebook mb-5 hover:cursor-pointer"
+        >
+          <div class="flex justify-center items-center gap-2 mb-5">
+            <img
+              src="./images/icon-facebook.svg"
+              alt="icon-facebook"
+              class="rounded-sm"
+            />
+            <p class="text-xs font-semibold text-DarkGrayishBlue">@nathanf</p>
+          </div>
+          <p class="text-VeryDarkBlue text-5xl font-extrabold text-center mb-2">
+            1987
+          </p>
+          <p
+            class="text-DarkGrayishBlue text-xs text-center tracking-wider uppercase mb-6"
+          >
+            Followers
+          </p>
+          <div class="flex justify-center items-baseline gap-2">
+            <img src="./images/icon-up.svg" alt="icon-up" />
+            <p class="text-LimeGreen text-xs font-bold text-center">12 Today</p>
+          </div>
+        </div>
+
+        <div
+          class="bg-LightGrayishBlue py-6 rounded-md border-t-4 border-t-Twitter mb-5 hover:cursor-pointer"
+        >
+          <div class="flex justify-center items-center gap-2 mb-5">
+            <img
+              src="./images/icon-twitter.svg"
+              alt="icon-twitter"
+              class="rounded-sm"
+            />
+            <p class="text-xs font-semibold text-DarkGrayishBlue">@nathanf</p>
+          </div>
+          <p class="text-VeryDarkBlue text-5xl font-extrabold text-center mb-2">
+            1044
+          </p>
+          <p
+            class="text-DarkGrayishBlue text-xs text-center tracking-wider uppercase mb-6"
+          >
+            Followers
+          </p>
+          <div class="flex justify-center items-center gap-2">
+            <img src="./images/icon-up.svg" alt="icon-up" />
+            <p class="text-LimeGreen text-xs font-bold text-center">99 Today</p>
+          </div>
+        </div>
+
+        <div
+          class="bg-gradient-to-r from-InstagramColor1 to-InstagramColor2 pt-1 rounded-md mb-5 hover:cursor-pointer"
+        >
+          <div class="bg-LightGrayishBlue rounded-md py-6">
+            <div class="flex justify-center items-center gap-2 mb-5">
+              <img
+                src="./images/icon-instagram.svg"
+                alt="icon-instagram"
+                class="rounded-sm"
+              />
+              <p class="text-xs font-semibold text-DarkGrayishBlue">
+                @realnathanf
+              </p>
+            </div>
+            <p
+              class="text-VeryDarkBlue text-5xl font-extrabold text-center mb-2"
+            >
+              11K
+            </p>
+            <p
+              class="text-DarkGrayishBlue text-xs text-center tracking-wider uppercase mb-6"
+            >
+              Followers
+            </p>
+            <div class="flex justify-center items-center gap-2">
+              <img src="./images/icon-up.svg" alt="icon-up" />
+              <p class="text-LimeGreen text-xs font-bold text-center">
+                1099 Today
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-LightGrayishBlue py-6 rounded-md border-t-4 border-t-YouTube mb-5 hover:cursor-pointer"
+        >
+          <div class="flex justify-center items-center gap-2 mb-5">
+            <img
+              src="./images/icon-youtube.svg"
+              alt="icon-youtube"
+              class="rounded-sm"
+            />
+            <p class="text-xs font-semibold text-DarkGrayishBlue">@nathanf</p>
+          </div>
+          <p class="text-VeryDarkBlue text-5xl font-extrabold text-center mb-2">
+            8239
+          </p>
+          <p
+            class="text-DarkGrayishBlue text-xs text-center tracking-wider uppercase mb-6"
+          >
+            Subscribers
+          </p>
+          <div class="flex justify-center items-center gap-2">
+            <img src="./images/icon-down.svg" alt="icon-down" />
+            <p class="text-BrightRed text-xs font-bold text-center">
+              144 Today
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--Boxes -->
+
+      <p class="text-DarkGrayishBlue text-xl font-extrabold mb-5 mt-6">
+        Overview - Today
+      </p>
+
+      <div class="sm:grid grid-cols-4 gap-5 my-8">
+        <div
+          class="bg-LightGrayishBlue rounded-md py-5 px-6 mb-4 hover:cursor-pointer"
+        >
+          <div class="flex justify-between items-start mb-5">
+            <p class="text-DarkGrayishBlue text-xs font-extrabold">
+              Page Views
+            </p>
+            <img
+              src="./images/icon-facebook.svg"
+              alt="icon-facebook"
+              class="rounded-sm"
+            />
+          </div>
+          <div class="flex justify-between items-baseline">
+            <p class="text-VeryDarkBlue text-3xl font-extrabold">87</p>
+            <div class="flex justify-center items-center gap-2">
+              <img src="./images/icon-up.svg" alt="icon-up" />
+              <p class="text-LimeGreen text-xs font-bold text-center">144%</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-LightGrayishBlue rounded-md py-5 px-6 mb-4 hover:cursor-pointer"
+        >
+          <div class="flex justify-between items-start mb-5">
+            <p class="text-DarkGrayishBlue text-xs font-extrabold">Likes</p>
+            <img
+              src="./images/icon-facebook.svg"
+              alt="icon-facebook"
+              class="rounded-sm"
+            />
+          </div>
+          <div class="flex justify-between items-baseline">
+            <p class="text-VeryDarkBlue text-3xl font-extrabold">52</p>
+            <div class="flex justify-center items-center gap-2">
+              <img src="./images/icon-down.svg" alt="icon-down" />
+              <p class="text-BrightRed text-xs font-bold text-center">2%</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-LightGrayishBlue rounded-md py-5 px-6 mb-4 hover:cursor-pointer"
+        >
+          <div class="flex justify-between items-start mb-5">
+            <p class="text-DarkGrayishBlue text-xs font-extrabold">Likes</p>
+            <img
+              src="./images/icon-instagram.svg"
+              alt="icon-instagram"
+              class="rounded-sm"
+            />
+          </div>
+          <div class="flex justify-between items-baseline">
+            <p class="text-VeryDarkBlue text-3xl font-extrabold">5462</p>
+            <div class="flex justify-center items-center gap-2">
+              <img src="./images/icon-up.svg" alt="icon-up" />
+              <p class="text-LimeGreen text-xs font-bold text-center">2257%</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-LightGrayishBlue rounded-md py-5 px-6 mb-4 hover:cursor-pointer"
+        >
+          <div class="flex justify-between items-start mb-5">
+            <p class="text-DarkGrayishBlue text-xs font-extrabold">
+              Profile Views
+            </p>
+            <img
+              src="./images/icon-instagram.svg"
+              alt="icon-instagram"
+              class="rounded-sm"
+            />
+          </div>
+          <div class="flex justify-between items-baseline">
+            <p class="text-VeryDarkBlue text-3xl font-extrabold">52K</p>
+            <div class="flex justify-center items-center gap-2">
+              <img src="./images/icon-up.svg" alt="icon-up" />
+              <p class="text-LimeGreen text-xs font-bold text-center">1375%</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-LightGrayishBlue rounded-md py-5 px-6 mb-4 hover:cursor-pointer"
+        >
+          <div class="flex justify-between items-start mb-5">
+            <p class="text-DarkGrayishBlue text-xs font-extrabold">Retweets</p>
+            <img
+              src="./images/icon-twitter.svg"
+              alt="icon-twitter"
+              class="rounded-sm"
+            />
+          </div>
+          <div class="flex justify-between items-baseline">
+            <p class="text-VeryDarkBlue text-3xl font-extrabold">117</p>
+            <div class="flex justify-center items-center gap-2">
+              <img src="./images/icon-up.svg" alt="icon-up" />
+              <p class="text-LimeGreen text-xs font-bold text-center">303%</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-LightGrayishBlue rounded-md py-5 px-6 mb-4 hover:cursor-pointer"
+        >
+          <div class="flex justify-between items-start mb-5">
+            <p class="text-DarkGrayishBlue text-xs font-extrabold">Likes</p>
+            <img
+              src="./images/icon-twitter.svg"
+              alt="icon-twitter"
+              class="rounded-sm"
+            />
+          </div>
+          <div class="flex justify-between items-baseline">
+            <p class="text-VeryDarkBlue text-3xl font-extrabold">507</p>
+            <div class="flex justify-center items-center gap-2">
+              <img src="./images/icon-up.svg" alt="icon-up" />
+              <p class="text-LimeGreen text-xs font-bold text-center">553%</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-LightGrayishBlue rounded-md py-5 px-6 mb-4 hover:cursor-pointer"
+        >
+          <div class="flex justify-between items-start mb-5">
+            <p class="text-DarkGrayishBlue text-xs font-extrabold">
+              Total Views
+            </p>
+            <img
+              src="./images/icon-youtube.svg"
+              alt="icon-youtube"
+              class="rounded-sm"
+            />
+          </div>
+          <div class="flex justify-between items-baseline">
+            <p class="text-VeryDarkBlue text-3xl font-extrabold">1407</p>
+            <div class="flex justify-center items-center gap-2">
+              <img src="./images/icon-down.svg" alt="icon-down" />
+              <p class="text-BrightRed text-xs font-bold text-center">12%</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-LightGrayishBlue rounded-md py-5 px-6 mb-4 hover:cursor-pointer"
+        >
+          <div class="flex justify-between items-start mb-5">
+            <p class="text-DarkGrayishBlue text-xs font-extrabold">Likes</p>
+            <img
+              src="./images/icon-youtube.svg"
+              alt="icon-youtube"
+              class="rounded-sm"
+            />
+          </div>
+          <div class="flex justify-between items-baseline">
+            <p class="text-VeryDarkBlue text-3xl font-extrabold">107</p>
+            <div class="flex justify-center items-center gap-2">
+              <img src="./images/icon-down.svg" alt="icon-down" />
+              <p class="text-BrightRed text-xs font-bold text-center">19%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="text-center text-xs my-5">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a class="text-Blue font-medium" href="#">Hoda Farahani</a>.
+    </div>
+  </body>
+</html>
