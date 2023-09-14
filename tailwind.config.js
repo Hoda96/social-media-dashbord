@@ -1,10 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: ["*"],
   theme: {
-    // backgroundColor: {
-    //   Instagram: "linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%)",
-    // },
     colors: {
       LimeGreen: " hsl(163, 72%, 41%)",
       BrightRed: "hsl(356, 69%, 56%)",
@@ -23,10 +21,13 @@ module.exports = {
       DarkDesaturatedBlue: "hsl(232, 19%, 15%)",
       DesaturatedBlue: "hsl(228, 34%, 66%)",
       Toggle: " hsl(230, 22%, 74%)",
-      DarkModeToggle:
-        "linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%)",
+      DarkModeToggle1: "hsl(210, 78%, 56%)",
+      DarkModeToggle2: " hsl(146, 68%, 55%)",
     },
     extend: {
+      screens: {
+        xs: "375px",
+      },
       letterSpacing: {
         wider: "0.28em",
       },
